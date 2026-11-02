@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:markdown/markdown.dart' as md;
 
+import 'html.dart';
+
 class SpecDoc {
   const SpecDoc(this.file, this.slug, this.title, this.blurb);
   final String file;
@@ -38,5 +40,5 @@ String renderSpec(SpecDoc d) {
     final repoPath = name.startsWith('../') ? name.substring(3) : 'docs/$name';
     return 'href="$_repo$repoPath$frag"';
   });
-  return html;
+  return keepPre(html);
 }
