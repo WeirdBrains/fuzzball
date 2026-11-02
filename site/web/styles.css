@@ -40,3 +40,4 @@ h2{font-size:1.9rem;letter-spacing:-.02em;margin:56px 0 8px}.sub,.note{color:var
 .prose table{border-collapse:collapse;display:block;overflow-x:auto;margin:16px 0}.prose th,.prose td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}.prose th{background:var(--card)}
 .foot{border-top:1px solid var(--line);text-align:center;color:var(--muted);padding:24px;font-size:.9rem;margin-top:60px}.foot p{margin:4px 0}
 @media (max-width:820px){.hero{grid-template-columns:1fr;padding-top:32px}.hero-art{order:-1}.hero-art img{width:160px}.two{grid-template-columns:1fr}.spec{grid-template-columns:1fr}.specnav{position:static}.specnav ul{display:flex;flex-wrap:wrap;gap:6px}.specnav li a small{display:none}.shots{grid-template-columns:1fr}}
+.hero>*,.two>*,.grid>*,.shots>*,.spec>*{min-width:0}
