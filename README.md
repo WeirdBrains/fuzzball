@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/WeirdBrains/fuzzball/main/assets/logo-512.png" alt="Fuzzball logo: a fuzzy pink cat-toy pom ball with a little yellow bell" width="160"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/WeirdBrains/fuzzball/main/assets/logo-512.png" alt="Fuzzball logo: a matte, fuzzy pink pom-pom cat-toy ball" width="160"></p>
 
 # fuzzball
 

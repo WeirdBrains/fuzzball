@@ -37,7 +37,7 @@ class Home extends StatelessComponent {
     <a class="btn" href="https://crates.io/crates/fuzzball">crates.io</a>
   </div>
 </div>
-<div class="hero-art"><img src="images/logo.svg" alt="Fuzzball logo: a fuzzy pink cat-toy pom ball with a little yellow bell" width="300" height="300"></div>
+<div class="hero-art"><img src="images/logo.svg" alt="Fuzzball logo: a matte, fuzzy pink pom-pom cat-toy ball" width="300" height="300"></div>
 '''),
       ]),
       section(classes: 'install', [
