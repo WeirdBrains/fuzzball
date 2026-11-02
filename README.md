@@ -1,7 +1,10 @@
+<p align="center"><img src="https://raw.githubusercontent.com/WeirdBrains/fuzzball/main/assets/logo-512.png" alt="Fuzzball logo: a fuzzy pink cat-toy pom ball with a little yellow bell" width="160"></p>
+
 # fuzzball
 
 Encoder and decoder for the **Fuzzball** terminal protocol, the DCS `Fz` extension
-family first implemented in the [Mouser](https://github.com/WeirdBrains/mouser) terminal:
+family first implemented in the [Mouser](https://github.com/WeirdBrains/mouser) terminal.
+Website: <https://weirdbrains.github.io/fuzzball/>
 
 ```text
 ESC P = F z <subsystem> <verb> ; <params> [: <payload>] ESC \
