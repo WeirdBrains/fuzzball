@@ -1,0 +1,16 @@
+[package]
+name = "fuzzball"
+version = "1.0.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Encoder and decoder for the Fuzzball terminal protocol (DCS Fz graphics, keyboard, shell and plugin messages)"
+license = "BSD-3-Clause"
+repository = "https://github.com/WeirdBrains/fuzzball"
+documentation = "https://docs.rs/fuzzball"
+readme = "README.md"
+keywords = ["terminal", "protocol", "keyboard", "graphics", "escape-codes"]
+categories = ["command-line-interface", "encoding", "parser-implementations"]
+authors = ["Weird Brains"]
+include = ["src/**", "tests/**", "docs/**", "README.md", "CHANGELOG.md", "LICENSE", "Cargo.toml"]
+
+[dependencies]
