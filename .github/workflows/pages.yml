@@ -23,9 +23,14 @@ jobs:
         working-directory: site
     steps:
       - uses: actions/checkout@v4
-      - uses: dart-lang/setup-dart@v1
-        with:
-          sdk: stable
+      # The repo's Actions policy allows only GitHub-owned and verified actions,
+      # so install the official Dart SDK directly instead of dart-lang/setup-dart.
+      - name: Install Dart SDK
+        run: |
+          curl -fsSLo /tmp/dart.zip https://storage.googleapis.com/dart-archive/channels/stable/release/3.13.7/sdk/dartsdk-linux-x64-release.zip
+          unzip -q /tmp/dart.zip -d "$RUNNER_TEMP"
+          echo "$RUNNER_TEMP/dart-sdk/bin" >> "$GITHUB_PATH"
+          echo "$HOME/.pub-cache/bin" >> "$GITHUB_PATH"
       - run: dart pub get
       - run: dart pub global activate jaspr_cli 0.23.5
       - run: jaspr build
